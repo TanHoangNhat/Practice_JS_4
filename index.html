@@ -89,7 +89,7 @@
                                         <div class="tab-pane exercise__item h-100 active" id="basic__1">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính tiền lương nhân viên</h2>
+                                                    <h2>Xuất 3 số nguyên theo thứ tự tăng dần</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Lương 100,000 VND/Ngày</h4>
@@ -108,7 +108,7 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="basic__2">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính giá trị trung bình</h2>
+                                                    <h2>Robot "Chào hỏi"</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Nhập vào 5 số</h4>
@@ -136,7 +136,7 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="basic__3">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Quy đổi tiền</h2>
+                                                    <h2>Số chẵn - Số lẻ</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
@@ -157,7 +157,7 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="basic__4">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính diện tích, chu vi hình chữ nhật</h2>
+                                                    <h2>Gọi tên tam giác</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Nhập vào chiều dài và chiều rộng</h4>
@@ -210,14 +210,15 @@
                                                     4</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link px-5 py-3" data-toggle="pill" href="#"><span>N/A</span></a>
+                                            <a class="nav-link px-5 py-3" data-toggle="pill"
+                                                href="#"><span>N/A</span></a>
                                         </li>
                                     </ul>
                                     <div class="tab-content p-0 exercise__content col-md-10">
                                         <div class="tab-pane exercise__item h-100 fade" id="pro__1">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính tổng 2 ký số</h2>
+                                                    <h2>Ngày - Tháng - Năm</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
@@ -235,7 +236,7 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="pro__2">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Quy đổi tiền</h2>
+                                                    <h2>Đếm số ngày của tháng</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
@@ -256,31 +257,21 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="pro__3">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính diện tích, chu vi hình chữ nhật</h2>
+                                                    <h2>Đọc số nguyên</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Nhập vào chiều dài và chiều rộng</h4>
+                                                    <h4 class="card-title my-4">Nhập vào số nguyên có 3 chữ số</h4>
                                                     <div class="row col-md-6 my-5 mx-0 p-0">
-                                                        <input id="txtLength" class="mr-3 col-md-3 form-control"
-                                                            type="number" placeholder="Chiều dài"
-                                                            onkeyup="enableButton__4()">
-                                                        <input id="txtWidth" class="col-md-3 form-control" type="number"
-                                                            placeholder="Chiều rộng" onkeyup="enableButton__4()">
+                                                        <input id="txtThreeDigitsNumber" class="mr-3 col-md-6 form-control"
+                                                            type="number" placeholder="Số nguyên có 3 chữ số">
                                                     </div>
                                                     <div class="row col-md-6 m-0 p-0">
-                                                        <button id="btnCountArea" onclick="countArea()"
-                                                            class="col-md-3 mr-3 btn" disabled>Tính diện tích<span>Tính
-                                                                diện
-                                                                tích</span></button>
-                                                        <button id="btnCountPerimeter" onclick="countPerimeter()"
-                                                            class="col-md-3 btn" disabled>Tính chu vi<span>Tính chu
-                                                                vi</span></button>
+                                                        <button id="btnSpell" class="col-md-6 mr-3 btn">Cách đọc<span>Cách đọc</span></button>
                                                     </div>
                                                 </div>
                                                 <div class="pl-5 card-footer">
                                                     <div class="row">
-                                                        <h2 id="txtResult__4--1" class="col-md-6">Diện tích HCN: </h2>
-                                                        <h2 id="txtResult__4--2" class="col-md-6">Chu vi HCN: </h2>
+                                                        <h2 id="txtResult__ad--3" class="col-md-6"></h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,7 +279,7 @@
                                         <div class="tab-pane exercise__item h-100 fade" id="pro__4">
                                             <div class="card h-100">
                                                 <div class="pl-5 card-header">
-                                                    <h2>Tính tổng 2 ký số</h2>
+                                                    <h2>Tìm khoảng cách xa nhất</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
@@ -309,180 +300,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="tab-content p-0 exercise__content col-md-10">
-                    <div class="tab-pane exercise__item h-100 active" id="basic__1">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính tiền lương nhân viên</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Lương 100,000 VND/Ngày</h4>
-                                <input id="txtWorkingDay" class="form-control my-5 col-md-2" type="number"
-                                    placeholder="Số ngày làm việc" onkeyup="enableButton__1()">
-                                <button id="btnCountSalary" disabled class="col-md-2 btn" onclick="countSalary()">Tính
-                                    tiền lương<span>Tính tiền lương</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__1">Tổng tiền lương: </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="basic__2">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính giá trị trung bình</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Nhập vào 5 số</h4>
-                                <div class="row col-md-8 my-5">
-                                    <input id="txtNumber1" class="form-control mr-3 col-md-1" type="number"
-                                        onkeyup="enableButton__2()">
-                                    <input id="txtNumber2" class="form-control mr-3 col-md-1" type="number"
-                                        onkeyup="enableButton__2()">
-                                    <input id="txtNumber3" class="form-control mr-3 col-md-1" type="number"
-                                        onkeyup="enableButton__2()">
-                                    <input id="txtNumber4" class="form-control mr-3 col-md-1" type="number"
-                                        onkeyup="enableButton__2()">
-                                    <input id="txtNumber5" class="form-control mr-3 col-md-1" type="number"
-                                        onkeyup="enableButton__2()">
-                                </div>
-                                <button id="btnCountAvg" onclick="countAvg()" class="btn" disabled>Tính giá trị trung
-                                    bình<span>Tính giá trị trung bình</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__2">Giá trị trung bình:</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="basic__3">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Quy đổi tiền</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
-                                <div class="row my-5 m-0">
-                                    <input id="txtExchangeMoney" class="form-control col-md-2" type="number"
-                                        placeholder="Số USD quy đổi" onkeyup="enableButton__3()">
-                                </div>
-                                <button id="btnExchangeMoney" onclick="exchangeMoney()" class="col-md-2 btn"
-                                    disabled>Quy đổi<span>Quy đổi</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__3">Thành tiền: </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="basic__4">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính diện tích, chu vi hình chữ nhật</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Nhập vào chiều dài và chiều rộng</h4>
-                                <div class="row col-md-6 my-5 mx-0 p-0">
-                                    <input id="txtLength" class="mr-3 col-md-3 form-control" type="number"
-                                        placeholder="Chiều dài" onkeyup="enableButton__4()">
-                                    <input id="txtWidth" class="col-md-3 form-control" type="number"
-                                        placeholder="Chiều rộng" onkeyup="enableButton__4()">
-                                </div>
-                                <div class="row col-md-6 m-0 p-0">
-                                    <button id="btnCountArea" onclick="countArea()" class="col-md-3 mr-3 btn"
-                                        disabled>Tính diện tích<span>Tính diện tích</span></button>
-                                    <button id="btnCountPerimeter" onclick="countPerimeter()" class="col-md-3 btn"
-                                        disabled>Tính chu vi<span>Tính chu vi</span></button>
-                                </div>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <div class="row">
-                                    <h2 id="txtResult__4--1" class="col-md-6">Diện tích HCN: </h2>
-                                    <h2 id="txtResult__4--2" class="col-md-6">Chu vi HCN: </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="pro__1">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính tổng 2 ký số</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
-                                <input id="txtNumber" class="form-control my-5 col-md-2" type="number"
-                                    onkeyup="enableButton__5()">
-                                <button id="btnCountSum" onclick="countSum()" class="col-md-2 btn" disabled>Tổng 2 ký
-                                    số<span>Tổng 2 ký số</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__5">Tổng 2 ký số: </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="pro__2">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Quy đổi tiền</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
-                                <div class="row my-5 m-0">
-                                    <input id="txtExchangeMoney" class="form-control col-md-2" type="number"
-                                        placeholder="Số USD quy đổi" onkeyup="enableButton__3()">
-                                </div>
-                                <button id="btnExchangeMoney" onclick="exchangeMoney()" class="col-md-2 btn"
-                                    disabled>Quy đổi<span>Quy đổi</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__3">Thành tiền: </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="pro__3">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính diện tích, chu vi hình chữ nhật</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Nhập vào chiều dài và chiều rộng</h4>
-                                <div class="row col-md-6 my-5 mx-0 p-0">
-                                    <input id="txtLength" class="mr-3 col-md-3 form-control" type="number"
-                                        placeholder="Chiều dài" onkeyup="enableButton__4()">
-                                    <input id="txtWidth" class="col-md-3 form-control" type="number"
-                                        placeholder="Chiều rộng" onkeyup="enableButton__4()">
-                                </div>
-                                <div class="row col-md-6 m-0 p-0">
-                                    <button id="btnCountArea" onclick="countArea()" class="col-md-3 mr-3 btn"
-                                        disabled>Tính diện tích<span>Tính diện tích</span></button>
-                                    <button id="btnCountPerimeter" onclick="countPerimeter()" class="col-md-3 btn"
-                                        disabled>Tính chu vi<span>Tính chu vi</span></button>
-                                </div>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <div class="row">
-                                    <h2 id="txtResult__4--1" class="col-md-6">Diện tích HCN: </h2>
-                                    <h2 id="txtResult__4--2" class="col-md-6">Chu vi HCN: </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane exercise__item h-100 fade" id="pro__4">
-                        <div class="card h-100">
-                            <div class="pl-5 card-header">
-                                <h2>Tính tổng 2 ký số</h2>
-                            </div>
-                            <div class="pl-5 card-body">
-                                <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
-                                <input id="txtNumber" class="form-control my-5 col-md-2" type="number"
-                                    onkeyup="enableButton__5()">
-                                <button id="btnCountSum" onclick="countSum()" class="col-md-2 btn" disabled>Tổng 2 ký
-                                    số<span>Tổng 2 ký số</span></button>
-                            </div>
-                            <div class="pl-5 card-footer">
-                                <h2 id="txtResult__5">Tổng 2 ký số: </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -507,6 +324,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./js/basic_1.js"></script>
+    <script src="./js/basic_2.js"></script>
+    <script src="./js/basic_3.js"></script>
+    <script src="./js/basic_4.js"></script>
+    <script src="./js/pro_1.js"></script>
+    <script src="./js/pro_2.js"></script>
+    <script src="./js/pro_3.js"></script>
+    <script src="./js/pro_4.js"></script>
 </body>
 
 </html>
