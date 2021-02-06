@@ -143,5 +143,5 @@ document.getElementById("btnSpell").onclick = function () {
         numberSpell = hundredSpell + " trăm";
     }
 
-    document.getElementById("txtResult__ad--3").innerHTML = numberSpell;
+    document.getElementById("txtResult__pro--3").innerHTML = numberSpell;
 }

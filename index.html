@@ -92,16 +92,20 @@
                                                     <h2>Xuất 3 số nguyên theo thứ tự tăng dần</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Lương 100,000 VND/Ngày</h4>
-                                                    <input id="txtWorkingDay" class="form-control my-5 col-md-2"
-                                                        type="number" placeholder="Số ngày làm việc"
-                                                        onkeyup="enableButton__1()">
-                                                    <button id="btnCountSalary" disabled class="col-md-2 btn"
-                                                        onclick="countSalary()">Tính
-                                                        tiền lương<span>Tính tiền lương</span></button>
+                                                    <h4 class="card-title my-4">Nhập vào 3 số nguyên</h4>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtNumber_1" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Số thứ nhất">
+                                                        <input id="txtNumber_2" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Số thứ hai">
+                                                        <input id="txtNumber_3" class="form-control col-md-2"
+                                                            type="number" placeholder="Số thứ ba">
+                                                    </div>
+                                                    <button id="btnOrderNumber" class="col-md-2 btn">Sắp xếp<span>Sắp
+                                                            xếp</span></button>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__1">Tổng tiền lương: </h2>
+                                                    <h2 id="txtResult__basic--1">Sắp xếp tăng dần: </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -111,25 +115,16 @@
                                                     <h2>Robot "Chào hỏi"</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Nhập vào 5 số</h4>
+                                                    <h4 class="card-title my-4">Xin chào! Bạn là ai vậy?</h4>
                                                     <div class="row col-md-8 my-5">
-                                                        <input id="txtNumber1" class="form-control mr-3 col-md-1"
-                                                            type="number" onkeyup="enableButton__2()">
-                                                        <input id="txtNumber2" class="form-control mr-3 col-md-1"
-                                                            type="number" onkeyup="enableButton__2()">
-                                                        <input id="txtNumber3" class="form-control mr-3 col-md-1"
-                                                            type="number" onkeyup="enableButton__2()">
-                                                        <input id="txtNumber4" class="form-control mr-3 col-md-1"
-                                                            type="number" onkeyup="enableButton__2()">
-                                                        <input id="txtNumber5" class="form-control mr-3 col-md-1"
-                                                            type="number" onkeyup="enableButton__2()">
+                                                        <input id="txtText" class="form-control mr-3 col-md-2"
+                                                            type="text">
                                                     </div>
-                                                    <button id="btnCountAvg" onclick="countAvg()" class="btn"
-                                                        disabled>Tính giá trị trung
-                                                        bình<span>Tính giá trị trung bình</span></button>
+                                                    <button id="btnSayHello" class="btn">Chào lại<span>Chào
+                                                            lại</span></button>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__2">Giá trị trung bình:</h2>
+                                                    <h2 id="txtResult__basic--2">Chào!!!</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,18 +134,20 @@
                                                     <h2>Số chẵn - Số lẻ</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
-                                                    <div class="row my-5 m-0">
-                                                        <input id="txtExchangeMoney" class="form-control col-md-2"
-                                                            type="number" placeholder="Số USD quy đổi"
-                                                            onkeyup="enableButton__3()">
+                                                    <h4 class="card-title my-4">Nhập vào 3 số nguyên</h4>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtNum_1" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Số thứ nhất">
+                                                        <input id="txtNum_2" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Số thứ hai">
+                                                        <input id="txtNum_3" class="form-control col-md-2" type="number"
+                                                            placeholder="Số thứ ba">
                                                     </div>
-                                                    <button id="btnExchangeMoney" onclick="exchangeMoney()"
-                                                        class="col-md-2 btn" disabled>Quy đổi<span>Quy
-                                                            đổi</span></button>
+                                                    <button id="btnFindEvenOdd" class="col-md-2 btn">Tìm chẵn
+                                                        lẻ<span>Tìm chẵn lẻ</span></button>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__3">Thành tiền: </h2>
+                                                    <h2 id="txtResult__basic--3">Kết quả: </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -160,28 +157,19 @@
                                                     <h2>Gọi tên tam giác</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Nhập vào chiều dài và chiều rộng</h4>
-                                                    <div class="row col-md-6 my-5 mx-0 p-0">
-                                                        <input id="txtLength" class="mr-3 col-md-3 form-control"
-                                                            type="number" placeholder="Chiều dài"
-                                                            onkeyup="enableButton__4()">
-                                                        <input id="txtWidth" class="col-md-3 form-control" type="number"
-                                                            placeholder="Chiều rộng" onkeyup="enableButton__4()">
+                                                    <h4 class="card-title my-4">Nhập vào 3 cạnh của tam giác</h4>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtEdge_1" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Cạnh 1">
+                                                        <input id="txtEdge_2" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Cạnh 2">
+                                                        <input id="txtEdge_3" class="form-control col-md-2" type="number"
+                                                            placeholder="Cạnh 1">
                                                     </div>
-                                                    <div class="row col-md-6 m-0 p-0">
-                                                        <button id="btnCountArea" onclick="countArea()"
-                                                            class="col-md-3 mr-3 btn" disabled>Tính diện tích<span>Tính
-                                                                diện tích</span></button>
-                                                        <button id="btnCountPerimeter" onclick="countPerimeter()"
-                                                            class="col-md-3 btn" disabled>Tính chu vi<span>Tính chu
-                                                                vi</span></button>
-                                                    </div>
+                                                    <button id="btnCallName" class="col-md-2 btn">Gọi tên<span>Gọi tên</span></button>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <div class="row">
-                                                        <h2 id="txtResult__4--1" class="col-md-6">Diện tích HCN: </h2>
-                                                        <h2 id="txtResult__4--2" class="col-md-6">Chu vi HCN: </h2>
-                                                    </div>
+                                                    <h2 id="txtResult__basic--4">Tam giác này là</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -221,15 +209,30 @@
                                                     <h2>Ngày - Tháng - Năm</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
-                                                    <input id="txtNumber" class="form-control my-5 col-md-2"
-                                                        type="number" onkeyup="enableButton__5()">
-                                                    <button id="btnCountSum" onclick="countSum()" class="col-md-2 btn"
-                                                        disabled>Tổng 2 ký
-                                                        số<span>Tổng 2 ký số</span></button>
+                                                    <h4 class="card-title my-4">Nhập vào Ngày, Tháng, Năm</h4>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtDay" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Ngày">
+                                                        <input id="txtMonth" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Tháng">
+                                                        <input id="txtYear" class="form-control col-md-2" type="number"
+                                                            placeholder="Năm">
+                                                    </div>
+                                                    <div class="row m-0">
+                                                        <button id="btnPrevDay" class="col-md-2 btn mr-3">Previous
+                                                            Day<span>Previous Day</span></button>
+                                                        <div class="col-md-2 mr-3"></div>
+                                                        <button id="btnNextDay" class="col-md-2 btn">Next Day<span>Next
+                                                                Day</span></button>
+                                                    </div>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__5">Tổng 2 ký số: </h2>
+                                                    <div class="row">
+                                                        <h2 id="txtResult__pro--1--1" class="col-md-6">Ngày trước đó:
+                                                        </h2>
+                                                        <h2 id="txtResult__pro--1--2" class="col-md-6">Ngày tiếp theo:
+                                                        </h2>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,18 +242,20 @@
                                                     <h2>Đếm số ngày của tháng</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Tỷ giá USD: 23,500 VND</h4>
-                                                    <div class="row my-5 m-0">
-                                                        <input id="txtExchangeMoney" class="form-control col-md-2"
-                                                            type="number" placeholder="Số USD quy đổi"
-                                                            onkeyup="enableButton__3()">
+                                                    <h4 class="card-title my-4">Nhập vào Tháng, Năm</h4>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtMonth_2" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Tháng">
+                                                        <input id="txtYear_2" class="form-control col-md-2"
+                                                            type="number" placeholder="Năm">
                                                     </div>
-                                                    <button id="btnExchangeMoney" onclick="exchangeMoney()"
-                                                        class="col-md-2 btn" disabled>Quy đổi<span>Quy
-                                                            đổi</span></button>
+                                                    <div class="row m-0">
+                                                        <button id="btnCountDay" class="col-md-2 btn mr-3">Đếm
+                                                            ngày<span>Đếm ngày</span></button>
+                                                    </div>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__3">Thành tiền: </h2>
+                                                    <h2 id="txtResult__pro--2">Số ngày: </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -262,16 +267,18 @@
                                                 <div class="pl-5 card-body">
                                                     <h4 class="card-title my-4">Nhập vào số nguyên có 3 chữ số</h4>
                                                     <div class="row col-md-6 my-5 mx-0 p-0">
-                                                        <input id="txtThreeDigitsNumber" class="mr-3 col-md-6 form-control"
-                                                            type="number" placeholder="Số nguyên có 3 chữ số">
+                                                        <input id="txtThreeDigitsNumber"
+                                                            class="mr-3 col-md-6 form-control" type="number"
+                                                            placeholder="Số nguyên có 3 chữ số">
                                                     </div>
                                                     <div class="row col-md-6 m-0 p-0">
-                                                        <button id="btnSpell" class="col-md-6 mr-3 btn">Cách đọc<span>Cách đọc</span></button>
+                                                        <button id="btnSpell" class="col-md-6 mr-3 btn">Cách
+                                                            đọc<span>Cách đọc</span></button>
                                                     </div>
                                                 </div>
                                                 <div class="pl-5 card-footer">
                                                     <div class="row">
-                                                        <h2 id="txtResult__ad--3" class="col-md-6"></h2>
+                                                        <h2 id="txtResult__pro--3" class="col-md-6"></h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -282,15 +289,46 @@
                                                     <h2>Tìm khoảng cách xa nhất</h2>
                                                 </div>
                                                 <div class="pl-5 card-body">
-                                                    <h4 class="card-title my-4">Nhập vào một số có 2 chữ số</h4>
-                                                    <input id="txtNumber" class="form-control my-5 col-md-2"
-                                                        type="number" onkeyup="enableButton__5()">
-                                                    <button id="btnCountSum" onclick="countSum()" class="col-md-2 btn"
-                                                        disabled>Tổng 2 ký
-                                                        số<span>Tổng 2 ký số</span></button>
+                                                    <div class="row mx-0 my-4 p-0">
+                                                        <h4 class="col-md-7 card-title m-0 p-0">Nhập vào tên và tọa độ
+                                                            của 3 sinh viên</h4>
+                                                        <h4 class="col-md-4 card-title my-0 p-0"
+                                                            style="margin-left: 2rem;">Nhập vào tọa độ của
+                                                            trường đại học</h4>
+                                                    </div>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtStudentName_1" class="form-control col-md-2 mr-3"
+                                                            type="text" placeholder="Tên SV 1">
+                                                        <input id="txtStudentName_2" class="form-control col-md-2 mr-3"
+                                                            type="text" placeholder="Tên SV 2">
+                                                        <input id="txtStudentName_3" class="form-control col-md-2"
+                                                            type="text" placeholder="Tên SV 3">
+                                                        <div class="col-md-1"></div>
+                                                        <input id="txtSchool_X" class="form-control col-md-2 mr-3"
+                                                            type="number" placeholder="Tọa độ X">
+                                                        <input id="txtSchool_Y" class="form-control col-md-2"
+                                                            type="number" placeholder="Tọa độ Y">
+                                                    </div>
+                                                    <div class=" row mx-0 my-5 p-0">
+                                                        <input id="txtStudent_1_X" class="form-control col-md-1"
+                                                            type="number" placeholder="X">
+                                                        <input id="txtStudent_1_Y" class="form-control col-md-1 mr-3"
+                                                            type="number" placeholder="Y">
+                                                        <input id="txtStudent_2_X" class="form-control col-md-1"
+                                                            type="number" placeholder="X">
+                                                        <input id="txtStudent_2_Y" class="form-control col-md-1 mr-3"
+                                                            type="number" placeholder="Y">
+                                                        <input id="txtStudent_3_X" class="form-control col-md-1"
+                                                            type="number" placeholder="X">
+                                                        <input id="txtStudent_3_Y" class="form-control col-md-1"
+                                                            type="number" placeholder="Y">
+                                                        <div class="col-md-1"></div>
+                                                        <button id="btnMaxDistance" class="btn col-md-2">Nhà ai xa
+                                                            nhất?<span style="top: 55%;">Nhà ai xa nhất?</span></button>
+                                                    </div>
                                                 </div>
                                                 <div class="pl-5 card-footer">
-                                                    <h2 id="txtResult__5">Tổng 2 ký số: </h2>
+                                                    <h2 id="txtResult__pro--4">Khoảng cách xa nhất</h2>
                                                 </div>
                                             </div>
                                         </div>
